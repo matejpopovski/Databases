@@ -1,0 +1,31 @@
+
+1. %%sql SELECT COUNT(*) AS NumberOfUsers
+	FROM USERS
+	
+2. %%sql SELECT COUNT(*) AS NumOfNyUsers
+	FROM USERS U
+	WHERE U.Location = "%NEW YORK%"  (Like?) (Dali cisto new york)
+
+3. %%sql SELECT COUNT(*) AS NumOfCategories
+	FROM Categories C
+	GROUP BY C.itemID
+	HAVING NumOfCategories = 4
+
+4. %%sql SELECT MAX(I.currently) AS MAX_PRICE
+	FROM Items I
+	
+5. %%sql SELECT COUNT(*) AS Num_Sellers_More1000
+	FROM Item I, User U
+	WHERE I.UserID = U.UserID
+	AND U.Rating > 1000
+
+6. %%sql SELECT COUNT(*) AS NumOf_SellAndBid
+	FROM Bids B, Items I
+	WHERE B.UserID = I.UserID
+
+7. %%sql SELECT COUNT(*) AS NumOfCategories
+	FROM Items I, Categories C, Bids B
+	WHERE I.ItemID = C.ItemID
+	AND I.ItemID = B.ItemID	
+	AND B.amount > 100
+	

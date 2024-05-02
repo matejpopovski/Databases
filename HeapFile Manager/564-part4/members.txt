@@ -1,0 +1,3 @@
+Matej Popovski - Worked on createHeapFile(), HeapFile() and scanNext() method, debugging 
+and commenting. Visited office hours to consult about the scanNext() method and the while loops. Met with all teammates to check the code and the testers. Formatting.
+

@@ -1,0 +1,2 @@
+Matej Popovski - Worked on the whole insert.C file, and helped my teammate with parts of ScanSelect() method inside select.C. Debugging and commenting. Visited office hours to consult about a method inside insert.C. Met with all teammates to checked the code and the testers. Formatting. Discussing the algorithms.
+
